@@ -21,6 +21,9 @@ const AboutScreen: React.FC = () => {
       <View style={styles.logoContainer}>
         <Logo size={80} showText={false} />
         <Text style={styles.appName}>Qorix Project Tasks</Text>
+        <Text style={[styles.appName, { color: "grey" }]}>
+          Малых С.Н. (4338)
+        </Text>
         <Text style={styles.appVersion}>Версия 1.0.0</Text>
       </View>
 
